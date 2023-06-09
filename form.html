@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>Form</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: "lato", sans-serif;
+            background-image: url(images/banner1.jpg) ;
+        }
+
+        .signup {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .form {
+            background-color: #ebb8dd;
+            width: 400px;
+            border-radius: 8px;
+            padding: 20px 40px;
+        }
+
+        .title {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="signup">
+        <form class="form">
+            <h1 class="title">Turn web visitors into donors!</h1>
+            <input type="email" size="35" placeholder="ex: john@gmail.com"><br><br>
+            <input type="text" size="30" placeholder="First Name"><br><br>
+            <input type="text" size="30" placeholder="Second Name"><br><br>
+            Gender<br>
+            <input type="radio" name="Gender" >Male
+            <input type="radio" name="Gender"  >Female<br><br>
+            <input type="number" size="30" placeholder="Phone Number"><br><br>
+            <input type="text" size="30" placeholder="Amount to donate"><br><br>
+            Payment Methods:<select>
+                <option>Credit card</option>
+                <option>Debit Card</option>
+                <option>UPI</option>
+            </select><br><br>
+            <input type="submit" style="background-color: green;">
+            <input type="reset" style="background-color: red;">
+            <a href="index.html">Back to Home</a>
+        </form>
+    </div>
+</body>
+
+</html>
